@@ -1,0 +1,50 @@
+.Game-col, .Game-row {
+  align-content: stretch;
+  align-items: stretch;
+  display: flex;
+  flex: 1 1 100%;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 0;
+}
+.Game-col {
+  flex-direction: column;
+}
+.Game-row {
+  flex-direction: row;
+}
+.Game-board {
+  flex: 2 0 66.7%;
+}
+.Game-button {
+  align-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex: 1 1 0px;
+  justify-content: center;
+}
+.Game-button > img {
+  cursor: pointer;
+  height: 50%;
+  width: 50%;
+}
+.Game-logo {
+  animation: Game-logo-spin infinite 20s linear;
+  height: 100%;
+}
+.Game-info {
+  flex: 0 3 20%;
+}
+.Game-stats {
+  align-content: space-around;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes Game-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+

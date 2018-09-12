@@ -1,0 +1,53 @@
+.Cage-bar {
+  background-color: #222222;
+  flex: 1 1 0px;
+  max-width: 10px;
+  z-index: 2;
+}
+.Prison-cage {
+  align-items: stretch !important;
+  border: 6px solid #222222;
+  border-top-left-radius: 25%;
+  border-top-right-radius: 25%;
+  justify-content: space-evenly !important;
+  overflow: hidden;
+  z-index: 2;
+}
+.Prison-princess {
+  height: 50%;
+  left: 66.7%;
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  width: 33.3%;
+  z-index: 1;
+}
+.Prison-princess img {
+  height: 50%;
+  width: 50%;
+}
+.Celebration {
+  animation: Celebration 0.3s linear infinite alternate;
+  opacity: 1;
+}
+
+@keyframes Celebration {
+  0% {
+    -webkit-transform: translate3d(0, -30%, 0) scaleY(1);
+            transform: translate3d(0, -30%, 0) scaleY(1);
+    -webkit-animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+            animation-timing-function: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+  }
+  50% {
+    -webkit-transform: translate3d(0, 0, 0) scaleY(1.2) scaleX(0.9);
+            transform: translate3d(0, 0, 0) scaleY(1.2) scaleX(0.9);
+  }
+  70% {
+    -webkit-transform: translate3d(0, 0, 0) scaleY(0.9) scaleX(1);
+            transform: translate3d(0, 0, 0) scaleY(0.9) scaleX(1);
+  }
+  100% {
+    -webkit-transform: translate3d(0, 0, 0) scaleY(0.8) scaleX(1.1);
+            transform: translate3d(0, 0, 0) scaleY(0.8) scaleX(1.1);
+  }
+}

@@ -1,0 +1,20 @@
+.Board {
+  border: 5px dashed #333333;
+  flex: 3 0 0%;
+}
+.Board-cell {
+  align-content: space-around;
+  align-items: center;
+  border: 1px solid #888888;
+  display: flex;
+  flex: 1 1 0px;
+  justify-content: center;
+}
+.Board-cell > img {
+  height: 50%;
+  width: 50%;
+}
+.Board-coin > img {
+  background-color: #FFD700;
+  border-radius: 50%;
+}
