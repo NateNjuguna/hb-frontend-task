@@ -1,6 +1,6 @@
 # HB Frontend Task
 
-HB Frontend Task is a ReactJS application to implement the task found here - https://github.com/hackerbay/interview-frontend-task.<br>It's basically a game where the player is required to collect all coins on a board of their choice's dimensions as fast as possible to free the princess who is locked up. For every coin collected, the chances of saving the princess are higher. Play the game [here](https://natenjuguna.github.io/hb-frontend-app)
+HB Frontend Task is a ReactJS application to implement the task found here - https://github.com/hackerbay/interview-frontend-task.<br>It's basically a game where the player is required to collect all coins on a board of their choice's dimensions as fast as possible to free the princess who is locked up. For every coin collected, the chances of saving the princess are higher. Play the game [here](https://natenjuguna.github.io/hb-frontend-task)
 
 ## Installation
 
