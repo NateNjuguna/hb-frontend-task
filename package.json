@@ -11,6 +11,7 @@
     "node": "^8.11.4",
     "npm": "^5.6.0"
   },
+  "homepage" : "https://natenjuguna.github.io/hb-frontend-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
